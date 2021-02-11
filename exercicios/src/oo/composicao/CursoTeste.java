@@ -4,7 +4,7 @@ public class CursoTeste {
 
 	public static void main(String[] args) {
 		
-		Aluno aluno1 = new Aluno("Jo√£o");
+		Aluno aluno1 = new Aluno("Jo„o");
 		Aluno aluno2 = new Aluno("Maria");
 		Aluno aluno3 = new Aluno("Pedro");
 		
@@ -26,7 +26,7 @@ public class CursoTeste {
 		for(Aluno aluno: curso3.alunos) {
 			System.out.println("Estou matriculado no curso "
 					+ curso3.nome + "...");
-			System.out.println("...e o meu nome √© " + aluno.nome);
+			System.out.println("...e o meu nome È " + aluno.nome);
 			System.out.println();
 		}
 		
